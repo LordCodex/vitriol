@@ -177,7 +177,7 @@ input{
     border-radius: 2px;
 }
 
-@media (max-width:991px){
+@media (max-width:768px){
  #nav,   .topbar{
         display: none;
     }
