@@ -1,0 +1,52 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 2.5em 0px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.freight {
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(99, 107, 131);
+}
+
+.phonebook {
+    display: flex;
+    gap: 2em;
+    left: 0;
+    font-size: 12px;
+    color: rgb(10, 25, 47);
+
+}
+.fa-book-bookmark{
+    color: rgb(69, 219, 183);
+}
+.foundation{
+    font-size: clamp(16px, 5vw, 2rem);
+    color: rgb(10, 25, 47);
+}
+
+@media (max-width:991px){
+    .about-section{
+        flex-direction: column;
+        
+    }
+    .about-text {
+        width: 100%;
+    }
+    
+    .about-image {
+        width: 100%;
+    }
+}

@@ -27,7 +27,7 @@
     padding-top: 1.2em;
 }
 
-ul {
+ .navs{
     display: flex;
     align-items: center;
     gap: 2em;
@@ -35,7 +35,7 @@ ul {
     
 }
 
-li {
+.nav {
     color: white;
     font-size: 15.4px;
 

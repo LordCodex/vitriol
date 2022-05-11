@@ -11,14 +11,14 @@
           <h1>!Vitriol</h1>
         </div>
         <div class="nav-link">
-          <ul>
-            <li id="nav">Home</li>
-            <li id="nav">About</li>
-            <li id="nav">Latest Course</li>
-            <li id="nav">Social Events</li>
-            <li id="nav">Blogs</li>
-            <li id="nav">Contact</li>
-            <li><button>Connect Wallet</button></li>
+          <ul class="navs">
+            <li class="nav" id="nav">Home</li>
+            <li class="nav" id="nav">About</li>
+            <li class="nav" id="nav">Latest Course</li>
+            <li class="nav" id="nav">Social Events</li>
+            <li class="nav" id="nav">Blogs</li>
+            <li class="nav" id="nav">Contact</li>
+            <li class="nav"><button>Connect Wallet</button></li>
           </ul>
         </div>
       </div>
@@ -53,14 +53,18 @@
               <b> <p>Be the light to the world while you can.</p></b>
             </div>
             <div class="amount">
-                <label>Amount to give </label>
-                <br>
-                <input type="number" id="input" placeholder="Enter Amout To Give">
-                <br>
+              <label>Amount to give </label>
+              <br />
+              <input
+                type="number"
+                id="input"
+                placeholder="Enter Amout To Give"
+              />
+              <br />
 
-                <div class="button3">
-              <button class="submit">Make Donation</button>
-            </div>
+              <div class="button3">
+                <button class="submit">Make Donation</button>
+              </div>
             </div>
           </div>
         </div>
