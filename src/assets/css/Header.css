@@ -1,0 +1,210 @@
+.hero-section {
+    background-color: rgb(10, 25, 47);
+   
+}
+
+.topbar {
+    color: #CCD6F6;
+    text-align: right;
+    width:100%;
+    max-width: 95%;
+    padding-top: 1.2em;
+}
+
+.logo {
+    color: #45dbb7;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width:100%;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 1.2em;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    
+}
+
+li {
+    color: white;
+    font-size: 15.4px;
+
+}
+button{background-color: rgb(69, 219, 183);
+color: white;
+border: 1px solid rgb(69, 219, 183);
+box-shadow: rgb(40 41 61 / 4%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 2px 4px;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.08em;
+padding: 12px 24px;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.5s ease-in-out 0s, color 0.15s ease-in-out 0s, background-color 0.5s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.button1{background-color: rgb(69, 219, 183);
+    color: white;
+    border: 1px solid rgb(69, 219, 183);
+    box-shadow: rgb(40 41 61 / 4%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 2px 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    transition: all 0.5s ease-in-out 0s, color 0.15s ease-in-out 0s, background-color 0.5s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    }
+    
+
+
+nav{
+    box-shadow: rgb(0 0 0 / 15%) 0px 2px 2px 0px;
+    padding-right: 5px;
+    background-color: rgb(10, 25, 47);
+    padding-bottom:1.2em;
+    z-index: 9999999;
+   
+  position: sticky;
+  top: 0;
+    width: 100%;
+}
+.section-hero{
+    width: 100%;
+    padding: 2.5em 0px;
+    max-width:90%;
+    margin: 0 auto;
+    
+}
+.section-grid{
+    position: relative;
+    display:flex;
+    flex-basis: 50%;
+    padding-bottom: 25px ;
+    align-items: center;
+}
+.hero-text{
+    width: 50%;
+}
+.Give{
+    color: rgb(204, 214, 246);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.sea{
+    color: #8892B0;
+    line-height:25px;
+    max-width: 95%;
+}
+.hero-buttons{
+display: flex;
+gap: 2em;
+}
+.button2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(69, 219, 183);
+    box-shadow: rgb(40 41 61 / 4%) 0px 0px 1px, rgb(96 97 112 / 16%) 0px 2px 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    transition: all 0.5s ease-in-out 0s, color 0.15s ease-in-out 0s, background-color 0.5s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+.hero-box{
+    
+    width: 50%;
+    background-color: white;
+    border-radius: 4px;
+    padding-bottom: 25px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px inset, rgb(0 0 0 / 30%) 0px 18px 36px -18px inset;
+    position: absolute;
+    top: 20px;
+    right: 0;
+
+
+}
+
+.charity-box{
+    background-color: rgb(69, 219, 183);
+    padding: 2em 1em;
+    border-radius: 4px 4px 0px 0px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+
+}
+label{
+    padding: 10px 0 0 0;
+}
+label, #input{
+    width: 100%;
+    max-width:95%;
+    display: flex;
+    margin: 0 auto;
+    color: rgb(10, 25, 47);
+}
+.button3{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width:95%;
+}
+input{
+    outline: none;
+    width: 100%;
+    padding: 1em;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+}
+
+@media (max-width:991px){
+ #nav,   .topbar{
+        display: none;
+    }
+    .section-grid{
+        flex-direction: column;
+       
+    }
+    .hero-box{
+        position: relative;
+        width: 100%;
+    }
+   .button1, .hero-text{
+        width: 100%;
+    }
+    .Give{
+        font-size: 2rem;
+    }
+    .sea{
+        font-size: 14px;
+    }
+    .button1,.button2{
+        width: 100%;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .hero-buttons{
+        padding-bottom: 35px;
+    }
+}
