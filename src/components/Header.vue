@@ -3,7 +3,7 @@
     <nav>
       <div class="topbar">
         <p>
-          Email: vitriol@blyncnov.com &nbsp; &nbsp; Phone: +234 (0) 814 9050 68
+          Email: vuevitriol@Codex.com &nbsp; &nbsp; Phone: +234 (0) 908 6797 871
         </p>
       </div>
       <div class="navbar">
