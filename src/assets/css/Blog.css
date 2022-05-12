@@ -1,0 +1,75 @@
+.blogs{
+    width: 100%;
+    max-width:90%;
+    margin: 0 auto;
+}
+.blog-text{
+    line-height: 1.5;
+}
+.news{
+   text-align: center;
+   color: rgb(10, 25, 47);
+}
+.article-box{
+    background-color:#fff ;
+    
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.article-details{
+    line-height:1.5;
+    padding:1em 1.5em 0 1.5em;
+}
+.cat{
+    display: inline-block;
+    height: auto;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 7px 11px 6px;
+    border-radius: 20px;
+    margin-right: 5px;
+    text-transform: uppercase;
+    vertical-align: top;
+    transition: all .2s ease-in-out;
+    color: #FFF;
+    background-color:  rgb(69, 219, 183);
+    
+}
+
+.btns{
+    background-color: rgb(69, 219, 183); 
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 1.5em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.art{
+    color: rgb(10, 25, 47);
+}
+
+.fa-user,.fa-calendar,.fa-eye{
+    color:rgb(69, 219, 183);
+}
+
+.articles{
+    display:flex;
+    gap: 2em;
+}
+
+.lorem{
+    color: rgb(10, 25, 47);
+}
+
+@media (max-width:768px){
+    .articles{
+        flex-direction: column;
+        
+    }
+}

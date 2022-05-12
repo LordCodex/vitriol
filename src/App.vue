@@ -3,12 +3,14 @@
   <HeaderNew/>
   <AboUt/>
   <MaJor/>
+  <Blog/>
 </template>
 
 <script>
 import MaJor from './components/Major.vue'
 import HeaderNew from './components/Header.vue'
 import AboUt from './components/About.vue'
+import Blog from './components/Blog.vue'
 
 export default {
   name: 'App',
@@ -16,6 +18,7 @@ export default {
     HeaderNew,
     AboUt,
     MaJor,
+    Blog,
   }
 }
 </script>
