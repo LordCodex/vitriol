@@ -2,16 +2,20 @@
  
   <HeaderNew/>
   <AboUt/>
+  <MaJor/>
 </template>
 
 <script>
+import MaJor from './components/Major.vue'
 import HeaderNew from './components/Header.vue'
 import AboUt from './components/About.vue'
+
 export default {
   name: 'App',
   components: {
     HeaderNew,
     AboUt,
+    MaJor,
   }
 }
 </script>

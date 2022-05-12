@@ -1,0 +1,51 @@
+
+
+
+.major-section{
+    background-color: rgba(17, 34, 64, 0.1);
+    margin-bottom: 2.5em;
+    padding: 2.5em 0px;
+}
+.major{
+    width: 100%;
+    max-width:90%;
+    margin: 0 auto;
+}
+.donate{
+    color: rgb(10, 25, 47);
+    font-size: 21px;
+    font-weight: 700;
+}
+.major-box{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    
+}
+.fa-box-open,.fa-bitbucket,.fa-table-list{
+    font-size:56px;
+    color: rgb(69, 219, 183);
+}
+
+.boxes{
+    padding:14px 28px;
+    background-color:#D0D3D9;
+    border-radius: 3px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+    transition: all 0.8s ease 0s;
+    
+}
+
+.boxes:hover{
+    transform: translateY(-50px)
+}
+
+
+@media (max-width:768px){
+    .major-box{
+        flex-direction: column;
+    }
+
+
+}
+

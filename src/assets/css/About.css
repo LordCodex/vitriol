@@ -13,6 +13,7 @@
 
 .about-image {
     width: 50%;
+    animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
 .freight {
@@ -49,4 +50,16 @@
     .about-image {
         width: 100%;
     }
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
