@@ -49,7 +49,7 @@
               <br />
               <li>
                 <i class="fa-solid fa-book-bookmark"></i> &nbsp; Help To The
-                Voiceless
+                Voiceless poor people 
               </li>
               <br />
               <br />
