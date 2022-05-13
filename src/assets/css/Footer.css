@@ -1,0 +1,39 @@
+.Footer-section{
+    background-color: rgb(10, 25, 47);
+   
+}
+.footer{
+    width: 100%;
+    max-width:90%;
+    margin: 0 auto;
+    display:flex;
+    gap: 4em;
+    padding: 3em 0;
+}
+.footer2{
+    display:flex;
+    gap: 10em;
+}
+.footer-logo{
+    width: 45%;
+}
+.foot{
+    font-size: 15.4px;
+}
+.quick li{
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 510;
+}
+
+@media (max-width:768px){
+  .footer2,  .footer{
+        flex-direction: column;
+        gap: 4em;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+
+}
+
